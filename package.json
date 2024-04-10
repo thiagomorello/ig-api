@@ -1,0 +1,23 @@
+{
+  "name": "ig-express-api",
+  "version": "1.0.0",
+  "description": "Trying to do a private express instragram API ",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "keywords": [
+    "instagram",
+    "api"
+  ],
+  "author": "Thiago Roieski Maltezo",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "instagram-private-api": "^1.46.1"
+  }
+}
